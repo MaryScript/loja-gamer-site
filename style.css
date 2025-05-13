@@ -1,0 +1,46 @@
+/* Estilo geral da página */
+body {
+  background-color: #121212; /* Fundo escuro */
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.logo {
+  height: 60px;
+}
+
+.carousel-inner img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.navbar {
+  background-color: #1f1f2e; /* Navbar escura */
+}
+
+.navbar a {
+  color: white !important; /* Letras brancas na navbar */
+}
+
+.btn-outline-light {
+  color: #00bcd4;
+  border-color: #00bcd4;
+}
+
+.btn-outline-light:hover {
+  background-color: #00bcd4;
+  color: white;
+}
+
+footer {
+  background-color: #1f1f2e;
+}
+
+footer p {
+  color: white;
+}
